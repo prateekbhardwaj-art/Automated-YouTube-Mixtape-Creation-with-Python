@@ -1,0 +1,14 @@
+[project]
+name = "mastering-audio-editing-techniques-using-pydub"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+mastering-audio-editing-techniques-using-pydub = "mastering_audio_editing_techniques_using_pydub:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
